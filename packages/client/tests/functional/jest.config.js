@@ -1,12 +1,5 @@
 module.exports = {
-  testMatch: [
-    '**/*.ts',
-    '!(**/*.d.ts)',
-    '!(**/_utils/**)',
-    '!(**/_matrix.ts)',
-    '!(**/_schema.ts)',
-    '!(**/.generated/**)',
-  ],
+  testMatch: ['**/*.ts', '!(**/*.d.ts)', '!(**/_utils/**)', '!(**/_*.ts)', '!(**/.generated/**)'],
   transform: { '^.+\\.(t|j)sx?$': '@swc/jest' },
   reporters: [
     'default',
