@@ -255,6 +255,7 @@ importers:
       make-dir: 3.1.0
       mariadb: 3.0.0
       mssql: 8.1.2
+      p-retry: 4.6.2
       pg: 8.7.3
       pkg-up: 3.1.0
       pluralize: 8.0.0
@@ -321,6 +322,7 @@ importers:
       make-dir: 3.1.0
       mariadb: 3.0.0
       mssql: 8.1.2
+      p-retry: 4.6.2
       pg: 8.7.3
       pkg-up: 3.1.0
       pluralize: 8.0.0
@@ -9547,7 +9549,7 @@ packages:
       signal-exit: 3.0.7
 
   /retry/0.12.0:
-    resolution: {integrity: sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=}
+    resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
     engines: {node: '>= 4'}
     dev: true
 
