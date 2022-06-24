@@ -46,6 +46,7 @@ services:
       # To hide "Update available 0.0.0 -> x.x.x"
       - PRISMA_HIDE_UPDATE_MESSAGE="true"
       - SKIP_ECOSYSTEMTESTS_CHECK
+      - NODE_OPTIONS='--max-old-space-size=4096'
     depends_on:
       - postgres
       - postgres_isolated
