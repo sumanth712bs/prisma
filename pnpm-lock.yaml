@@ -235,6 +235,7 @@ importers:
       arg: 5.0.2
       benchmark: 2.1.4
       chalk: 4.1.2
+      cuid: 2.1.8
       decimal.js: 10.3.1
       esbuild: 0.14.47
       execa: 5.1.1
@@ -301,6 +302,7 @@ importers:
       arg: 5.0.2
       benchmark: 2.1.4
       chalk: 4.1.2
+      cuid: 2.1.8
       decimal.js: 10.3.1
       esbuild: 0.14.47
       execa: 5.1.1
@@ -4020,6 +4022,10 @@ packages:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
     engines: {node: '>=8'}
 
+  /cuid/2.1.8:
+    resolution: {integrity: sha512-xiEMER6E7TlTPnDxrM4eRiC6TRgjNX9xzEZ5U/Se2YJKr7Mq4pJn/2XEHjl3STcSh96GmkHPcBXLES8M29wyyg==}
+    dev: true
+
   /currently-unhandled/0.4.1:
     resolution: {integrity: sha512-/fITjgjGU50vjQ4FH6eUoYu+iUoUKIXws2hL15JJpIR+BbTxaXQsMuuyjtNh2WqsSBS5nsaZHFsFecyw5CCAng==}
     engines: {node: '>=0.10.0'}
@@ -6801,7 +6807,7 @@ packages:
       pretty-format: 28.1.1
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.8.1_01f4831a90327c4fa15ca04ce3a26ce1
+      ts-node: 10.8.1_b366726ecfa91800d94433349f8c7e56
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6841,7 +6847,7 @@ packages:
       pretty-format: 28.1.1
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.8.1_01f4831a90327c4fa15ca04ce3a26ce1
+      ts-node: 10.8.1_b366726ecfa91800d94433349f8c7e56
     transitivePeerDependencies:
       - supports-color
     dev: true
